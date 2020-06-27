@@ -1,0 +1,12 @@
+test_str = "sasank"
+all_freq = {} 
+for i in test_str: 
+    if i in all_freq: 
+        all_freq[i] += 1
+    else: 
+        all_freq[i] = 1
+print ("Count of all characters in sasank is :\n "+  str(all_freq))
+#######
+output :
+Count of all characters in sasank is :
+ {'a': 2, 's': 2, 'k': 1, 'n': 1}
